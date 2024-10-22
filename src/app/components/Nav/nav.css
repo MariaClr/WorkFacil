@@ -1,0 +1,16 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    height: 61px;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.lista-cabecalho{
+    display: flex;
+    gap: 34px;
+    color: #FF8700;
+}
+
+.lista-cabecalho a:hover{
+    cursor: pointer;
+}

@@ -1,6 +1,6 @@
-
+import './Logo.css'
 export default function Logo(){
-    <>
-        <a className="logo">WORKFACIL</a>
-    </>
+    return (<>
+        <a className="logo"><span>W</span>ORK<span>F</span>ACIL</a>
+    </>)
 }

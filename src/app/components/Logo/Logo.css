@@ -1,3 +1,9 @@
 .logo{
-    
+    color: #FF8700;
+    font-size: 30px;
+}
+
+.logo span {
+    color: #172EC4; 
+   
 }
