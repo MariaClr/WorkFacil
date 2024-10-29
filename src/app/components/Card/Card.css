@@ -1,0 +1,62 @@
+.card{
+    box-sizing: border-box;
+    background-color: #CBCCF0;
+    width: 315px;
+    padding: 2rem;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+    border-radius: 18px;
+    text-align: justify;
+   
+}
+
+.card-conteudo{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+.card-conteudo h3{
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+.card-conteudo h4{
+    color: #FF8700;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.primeiro p{
+    font-size: 14px;
+    font-weight: light;
+}
+
+.lista{
+    font-size: 12px;
+}
+.div-botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 14px;
+
+}
+
+.botao{
+    background-color: #FF8700;
+    display: inline-block;
+    padding: 8px;
+    width: 70%;
+    text-align: center;    
+}
+
+.lista li{
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+    
+}
+

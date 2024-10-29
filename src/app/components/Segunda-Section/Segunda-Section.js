@@ -6,11 +6,10 @@ export default function SegundaSection(){
     <section>
         <h2>Principais Vagas</h2>
         <div>
-            <ArrowLeftIcon class="size-6"/>
+            <ArrowLeftIcon className="size-6"/>
             <Card/>
-            <Card/>
-            <Card/>
-            <ArrowRightIcon class='size-6'/>
+            
+            <ArrowRightIcon className='size-6'/>
         </div>
         <div>
             <a>Ver Mais</a>
