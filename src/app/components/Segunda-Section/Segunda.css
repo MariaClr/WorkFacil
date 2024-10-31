@@ -1,0 +1,54 @@
+.vagas{
+    background-color: #FBF9FD;
+    padding: 200px 60px;
+    color: black;
+    background-image: url("/imagens/Woman with cat working remotely.svg");
+    background-repeat: no-repeat;
+    background-position: 10% 0;
+
+}
+.container-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cards{
+    
+    width:70%;
+    display: flex;
+    align-items: center;
+}
+
+.vagas h2{
+    font-size: 35px;
+    color: #FF8700;
+    margin-left: 20%;
+    margin-top: 50px;
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+.teste {
+    width: 10%;
+}
+.div-botao-card{
+    margin-top: 20px;
+    width: 62%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.div-botao-card a {
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    background-color: #172EC4;
+    padding: 10px 60px;
+    justify-self: flex-end;
+    border-radius: 10px;
+}
