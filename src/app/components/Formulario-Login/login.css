@@ -1,0 +1,45 @@
+#containerLogin{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100vh;
+    max-width: 100% !important;
+
+
+    justify-content: center;
+
+    span{
+        color: #FF8700;
+    
+    }
+
+    
+    .div-texto{
+        background-image: url("/imagens/login.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .div-texto h1{
+        margin-top: 10rem;
+        margin-bottom: 16px;
+    }
+    .div-texto p {
+        font-size: 16px;
+    }
+    .div-texto div{
+        width: 60%;
+        text-align: justify;
+    }
+    .formularioLogin{
+        background-color: aliceblue;
+ }
+
+}
+

@@ -1,0 +1,21 @@
+.div-input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label{
+    font-weight: bold;
+
+}
+input{
+    border: 1px solid black;
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+input:focus{
+    outline: none;
+    border: 3px solid #FF8700;
+}
