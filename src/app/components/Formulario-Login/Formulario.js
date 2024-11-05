@@ -13,8 +13,8 @@ export default function FormularioLogin(){
                 
             </aside>
             <section className="formularioLogin">   
-                <div>
-                            <FormLogin/>
+                <div className="teste">
+                    <FormLogin/>
      
                 </div>         
             </section>
