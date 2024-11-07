@@ -1,0 +1,40 @@
+#cadastroEmpresa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 87vh;
+}
+aside{
+    background-image: url("/imagens/login.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formCadastro{
+    background-color: aliceblue;
+}
+
+#cadastroEmpresa aside{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+    gap: 16px;
+}
+
+#cadastroEmpresa aside h1{
+    width: 60%;
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+#cadastroEmpresa aside span{
+    color:#FF8700;
+}
+
+#cadastroEmpresa aside p{
+    width: 60%;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}

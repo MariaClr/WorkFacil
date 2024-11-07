@@ -32,7 +32,7 @@ export default function FormLogin() {
         <>
             <div className="container">
                 <form onSubmit={envioForm}>
-                    <h1>Acesse sua conta</h1>
+                    <h2>Acesse sua conta</h2>
 
                     <div className="inputs">
                         <Input 
