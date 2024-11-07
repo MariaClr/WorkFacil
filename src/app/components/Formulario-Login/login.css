@@ -29,13 +29,14 @@
     .div-texto h1{
         margin-top: 10rem;
         margin-bottom: 16px;
+        font-size: 40px;
     }
     .div-texto p {
         font-size: 16px;
+        color: black;
     }
     .div-texto div{
         width: 60%;
-        text-align: justify;
     }
     .formularioLogin{
         background-color: aliceblue;
