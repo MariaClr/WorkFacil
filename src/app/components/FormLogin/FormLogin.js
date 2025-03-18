@@ -59,7 +59,7 @@ export default function FormLogin() {
                         <button className="botaoPrincipal">Entrar</button>
                         <p>ou</p>
                         <div className="div-cadastro">
-                            <a className="cadastrar">Cadastre-se</a>
+                            <a className="cadastrar" >Cadastre-se</a>
                         </div>
                         <p>Esqueceu a senha? Recupere aqui </p>
                     </div>

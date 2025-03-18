@@ -1,6 +1,7 @@
 import Nav from "@/app/components/Nav/Nav";
 import FormularioLogin from "../components/Formulario-Login/Formulario";
 import "./login.css"
+import Footer from "../components/Footer/Footer";
 
 export default function Login(children) {
     return (
@@ -8,6 +9,7 @@ export default function Login(children) {
         <body>
             <Nav></Nav>
            <FormularioLogin/>
+           <Footer></Footer>
         </body>
       </html>
     );

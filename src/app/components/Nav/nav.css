@@ -1,9 +1,11 @@
 .cabecalho{
+    width:100%;
     display: flex;
     justify-content: space-around;
     height: 61px;
     align-items: center;
     background-color: #FFFFFF;
+    
 }
 .lista-cabecalho{
     display: flex;

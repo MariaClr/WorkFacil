@@ -1,0 +1,10 @@
+body{
+    background: url("/company.svg");
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    width:100vw;
+
+
+}

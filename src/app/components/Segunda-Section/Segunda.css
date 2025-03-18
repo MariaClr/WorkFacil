@@ -41,6 +41,9 @@
     justify-content: flex-end;
 
 }
+.div-botao-card a:hover{
+    background-color: #FF8700 ;
+}
 
 .div-botao-card a {
     cursor: pointer;

@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import { UserProvider } from "./context/userContext.js";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -19,14 +20,23 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-   
-    <html lang="pt-br"> 
+    <>
+     <html lang="pt-br"> 
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body>
+      <UserProvider>
+
         {children}
+      </UserProvider>
+
       </body>
-    </html>
+    </html> 
+    
+    </>
+     
+   
+  
   );
 }

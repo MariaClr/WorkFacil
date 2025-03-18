@@ -1,4 +1,4 @@
-#cadastroEmpresaForm{
+#cadastroUsuarioForm {
     margin-top: 80px;
     display: flex;
     flex-direction: column;
@@ -6,47 +6,37 @@
     color: black;
     gap: 30px;
 }
-.botao{
-    display:flex;
-    flex-direction: column;
-    text-align:center;
 
-}
-
-h2{
+h2 {
     font-size: 30px;
+    color: #172EC4;
 }
 
-#dadosEmpresas{
+#dadosUsuario {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-h2{
-    color: #172EC4;
-}
-.botao button{
 
+.botao button {
     background-color: #172EC4;
     width: 350px;
     height: 40px;
     border-radius: 5px;
     color: white;
-    box-shadow: 
-     0 4px 8px rgba(49, 49, 48, 0.6);;
+    box-shadow: 0 4px 8px rgba(49, 49, 48, 0.6);
 }
 
-.botao button:hover{
-        background-color: #FF8700 ;
-   
+.botao button:hover {
+    background-color: #FF8700;
 }
 
-.botao p{
+.botao p {
     text-align: center;
     margin-top: 10px;
-  color: #615C5C;
-    
+    color: #615C5C;
 }
+
 .botao a{
     margin-top: 10px;
     color: #615C5C;
@@ -54,4 +44,10 @@ h2{
 
 .botao a, p:hover{
     cursor: pointer;
+}
+.botao{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+
 }

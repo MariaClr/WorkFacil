@@ -31,13 +31,22 @@ export default function Form(){
                             label="CNPJ"  
                             type="text" 
                             placeholder="digite o CNPJ da empresa" 
-                            id="cnpj " />                
+                            id="cnpj " />       
+             <Input forhtml="cep" 
+                            label="CEP"  
+                            type="text" 
+                            placeholder="digite o CEP da empresa" 
+                            id="cep " />    
+              
             </div>
             <div className="botao">
                 <button>Confirmar Cadastro</button>
                 
                  <p>Já possui uma conta? Faça login</p>
+                 <a className="cadastrar" onClick={()=> window.location.href = "/cadastroUsuario" }>Cadastre-se como usuario</a>
+
             </div>
+
         </form>
         
             
