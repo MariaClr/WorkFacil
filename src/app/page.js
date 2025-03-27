@@ -10,15 +10,13 @@ import Swiper from "./components/Swiper/Swiper";
 export default function Home() {
   return (
    <>
-     <html lang="en">
-        <body>
+   
             <Nav/>
             <PrimeiraSection/>
             <SegundaSection/>
             <Sobre/>
             <Footer/>
-        </body>
-      </html>
+    
    </>
   );
 }
