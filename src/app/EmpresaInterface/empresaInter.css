@@ -1,3 +1,6 @@
+body{
+    background-color: white;
+}
 .vagas{
     background-color: #FBF9FD;
     padding: 200px 60px;
@@ -29,29 +32,4 @@
     margin-top: 50px;
     margin-bottom: 3%;
     font-weight: bold;
-}
-.teste {
-    width: 10%;
-}
-.div-botao-card{
-    margin-top: 20px;
-    width: 62%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-
-}
-.div-botao-card a:hover{
-    background-color: #FF8700 ;
-}
-
-.div-botao-card a {
-    cursor: pointer;
-    color: white;
-    display: inline-block;
-    text-align: center;
-    background-color: #172EC4;
-    padding: 10px 60px;
-    justify-self: flex-end;
-    border-radius: 10px;
 }

@@ -1,0 +1,42 @@
+#sectionTwo{
+    display: flex;
+    height: 80vh;
+    padding: 0 10rem;
+    background-color: #CBCCF0;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#sectionTwo .informacoes{
+    width: 50%;
+    max-width: 50%;
+    color: black;
+
+}
+.informacoes h2{
+    font-size: 26px;
+    color: #172EC4;
+}
+.informacoes h3{
+    font-size: 20px;
+    color: #172EC4;
+}
+.informacoes .container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+} 
+.informacoes .container  ol{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+} 
+.informacoes .container  ol li{
+    padding-left: 1rem;
+} 
+#sectionTwo .imagemDev{
+    width: 50%;
+    max-width: 50%;
+}

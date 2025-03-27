@@ -1,0 +1,41 @@
+#sectionOne{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    color: black;
+}
+.textos{
+    max-width: 50%;
+    min-width: 50%
+}
+.textos h1{
+    font-size: 36px;
+    color:  #FF8700 ;
+}
+
+span{
+    color: #172EC4 ;
+}
+
+.textos p {
+    color: #645F5F;
+    margin-top: 2rem;
+    width: 70%;
+}
+#sectionOne aside{
+    max-width: 50%;
+}
+
+#sectionOne aside img{
+    width: 80%;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+}

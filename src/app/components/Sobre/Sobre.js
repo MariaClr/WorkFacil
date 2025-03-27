@@ -2,7 +2,7 @@ import "./Sobre.css"
 export default function Sobre(){
     return (
         <>
-        <section className="sobre">
+        <section className="sobre" id="sobre">
                     <div className="img">
                         <img src="imagens/Dev team working on a project.svg"/>
                     </div>
