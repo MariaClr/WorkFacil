@@ -1,10 +1,11 @@
 "use client"
 import Logo from "../Logo/Logo";
-import { useContext } from "react";
-import { UserContext } from "@/app/context/userContext.js";
+import { useAuth } from "@/app/context/userContext";
 import "./nav.css"
-export default function Nav({}) {
-    const {user, setUser} = useContext(UserContext);
+
+export default function Nav() {
+    const { user, logout, isAuthenticated } = useAuth();
+
     return (
         <>
             <header className="cabecalho">
@@ -13,35 +14,35 @@ export default function Nav({}) {
                     <li><a>Suporte</a></li>
 
                     <li>
-                    {user ? (
-                                user.tipo === "usuario" ? (
-                                    <a href="/">Home</a>
-                                ) : user.tipo === "empresa" ? (
-                                    <a href="/EmpresaInterface">Home</a>
-                                ) : (
-                                    <a href="/">Home</a>  
-                                )
-                                ) : (
-                                <a href="/">Home</a> 
+                    {isAuthenticated ? (
+                        user.tipoUsuario === "usuario" ? (
+                            <a href="/">Home</a>
+                        ) : user.tipoUsuario === "empresa" ? (
+                            <a href="/EmpresaInterface">Home</a>
+                        ) : (
+                            <a href="/">Home</a>  
+                        )
+                    ) : (
+                        <a href="/">Home</a> 
                     )}
                     </li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li>
-                        {
-                            user ? <a href="#">
-                                    sair
-                                    
-                            </a>:
-                            <a href="./login">
-                                login
+                        {isAuthenticated ? (
+                            <a href="#" onClick={(e) => {
+                                e.preventDefault();
+                                logout();
+                            }}>
+                                Sair
                             </a>
-                        }
-                        
+                        ) : (
+                            <a href="./login">
+                                Login
+                            </a>
+                        )}
                     </li>
                 </ul>
             </header>
-
         </>
-
     )
 }

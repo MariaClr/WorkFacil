@@ -8,13 +8,11 @@ import "./principal.css"
 export default function CadastroEmpresa() {
     return (
      <>
-       <html lang="pt-br">
           <body>
               <Nav/>
               <AsideEmpresaCadastro/>
               <Footer/>
           </body>
-        </html>
      </>
     );
   }

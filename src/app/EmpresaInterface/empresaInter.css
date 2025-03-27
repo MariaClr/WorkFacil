@@ -1,3 +1,35 @@
 body{
     background-color: white;
 }
+.vagas{
+    background-color: #FBF9FD;
+    padding: 200px 60px;
+    color: black;
+    background-image: url("/imagens/Woman with cat working remotely.svg");
+    background-repeat: no-repeat;
+    background-position: 10% 0;
+
+}
+.container-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cards{
+    
+    width:70%;
+    display: flex;
+    align-items: center;
+}
+
+.vagas h2{
+    font-size: 35px;
+    color: #FF8700;
+    margin-left: 20%;
+    margin-top: 50px;
+    margin-bottom: 3%;
+    font-weight: bold;
+}

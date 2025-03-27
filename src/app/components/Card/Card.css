@@ -1,7 +1,7 @@
 .card{
     box-sizing: border-box;
     background-color: #CBCCF0;
-    width: 315px;
+    width: 320px;
     padding: 2rem;
     height: 500px;
     display: flex;
@@ -14,27 +14,27 @@
 }
 
 .card-conteudo{
-    
     display: flex;
     flex-direction: column;
     gap: 0.7rem;
+    text-align-last: left;
+
 }
 .card-conteudo h3{
-    font-size: 1.7rem;
+    letter-spacing: 0.5px;
+    hyphens: auto;
+    font-size: 1.6rem;
     font-weight: bolder;
+    text-align: justify;
 }
-.card-conteudo h4{
-    color: #FF8700;
-    font-size: 1.5rem;
-    font-weight: bolder;
-}
+
 .primeiro p{
-    font-size: 14px;
+    font-size: 18px;
     font-weight: light;
 }
 
 .lista{
-    font-size: 12px;
+    font-size: 16px;
 }
 .div-botao{
     display: flex;

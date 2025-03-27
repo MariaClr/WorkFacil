@@ -6,8 +6,6 @@ import Footer from "../components/Footer/Footer.js";
 export default function CadastroUsuario() {
     return (
      <>
-       <html lang="pt-br">
-          <body>
               <Nav/>
              <section id="cadastroUsuario">
                           <aside>
@@ -18,10 +16,8 @@ export default function CadastroUsuario() {
                              <FormUsuario/>
                          </div>
                         
-                     </section>
+                </section>
               <Footer/>
-          </body>
-        </html>
      </>
     );
   }

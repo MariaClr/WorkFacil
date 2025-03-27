@@ -10,28 +10,31 @@ import "swiper/css/pagination"
 
 
 import Card from '../Card/Card';
+export default ({vagas, textoBotao}) => {
 
+  console.log(vagas[0].Empresa.nomeEmpresa)
 
-
-export default () => {
+  const vagasArray = Array.isArray(vagas) ? vagas : [];
+  
   return (
     <>
-        <Swiper
-      spaceBetween={100}
-      slidesPerView={3}
-        
-    >
-      <SwiperSlide><Card/></SwiperSlide>
-      <SwiperSlide><Card/></SwiperSlide>
-      <SwiperSlide><Card/></SwiperSlide>
-      <SwiperSlide><Card/></SwiperSlide>
-      <SwiperSlide><Card/></SwiperSlide>
-      <SwiperSlide><Card/></SwiperSlide>
-      <SwiperSlide><Card/></SwiperSlide>
-
-    </Swiper>
-
+      <Swiper
+        spaceBetween={200}
+        slidesPerView={3}
+      >
+        {vagasArray.map((vaga) => (
+          <SwiperSlide key={vaga.id}>
+            <Card 
+              titulo={vaga.titulo} 
+              descricao={vaga.descricao} 
+              area={vaga.area} 
+              prazo={vaga.dataVencimento} 
+              empresa={vaga.Empresa.nomeEmpresa}
+              textoBotao = {textoBotao}
+            />
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </>
-
   );
 };

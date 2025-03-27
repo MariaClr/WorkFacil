@@ -5,12 +5,12 @@ import Footer from "../components/Footer/Footer";
 
 export default function Login(children) {
     return (
-      <html lang="pt-br">
-        <body>
+<>
+
             <Nav></Nav>
            <FormularioLogin/>
            <Footer></Footer>
-        </body>
-      </html>
+
+           </>
     );
   }

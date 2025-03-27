@@ -6,12 +6,10 @@ import "./style.css"
 
 export default function cadastroVaga() {
     return (
-      <html lang="pt-br">
         <body>
             <Nav></Nav>
            <Vaga/>
            <Footer></Footer>
         </body>
-      </html>
     );
   }

@@ -5,6 +5,7 @@
     align-items: center;
     color: black;
     gap: 30px;
+    width: 100%
 }
 .botao{
     display:flex;

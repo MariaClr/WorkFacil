@@ -1,12 +1,13 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import { UserProvider } from "./context/userContext.js";
+import { AuthProvider } from "./context/userContext.js"; // Alterado de UserProvider para AuthProvider
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
   weight: "100 900",
 });
+
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
@@ -20,23 +21,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <>
-     <html lang="pt-br"> 
-    <head>
+    <html lang="pt-br">
+      <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body>
-      <UserProvider>
-
-        {children}
-      </UserProvider>
-
+        <AuthProvider> {/* Substituído UserProvider por AuthProvider */}
+          {children}
+        </AuthProvider>
       </body>
-    </html> 
-    
-    </>
-     
-   
-  
+    </html>
   );
 }
