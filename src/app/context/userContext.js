@@ -58,14 +58,12 @@ export function AuthProvider({ children }) {
 
     } catch (error) {
       console.error("Erro ao buscar informações do usuário:", error.message);
-      logout(); // Deslogar se houver erro
+      logout(); 
     }
   };
 
-  // Função de login
   const login = async (email, senha) => {
     try {
-      // Primeira requisição - Login para obter token
       const loginRes = await fetch("http://localhost:2000/usuario", {
         method: "POST",
         headers: { "Content-Type": "application/json" },

@@ -1,0 +1,41 @@
+.vagas{
+    background-color:#fbf9fd;
+    color: black;
+    height: 100%;
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    padding: 4rem;
+    min-height: 100vh;
+
+}
+.vagas h2{
+    color: #172EC4;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.vagas select{
+    border: 2px solid black;
+}
+#opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    width: 100%;
+    height: 100%;
+
+}
+
+.vagasDisponivel{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    width: 100%;
+    height: 100%;
+}

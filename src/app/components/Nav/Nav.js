@@ -26,7 +26,7 @@ export default function Nav() {
                         <a href="/">Home</a> 
                     )}
                     </li>
-                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="/#sobre">Sobre</a></li>
                     <li>
                         {isAuthenticated ? (
                             <a href="#" onClick={(e) => {

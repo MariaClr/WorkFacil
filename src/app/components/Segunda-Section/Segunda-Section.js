@@ -41,7 +41,7 @@ export default function SegundaSection() {
                 )}
                 <div className="div-botao-card">
                     {isAuthenticated ? (
-                        <a href="#">Ver Mais</a>
+                        <a href="/vagas">Ver Mais</a>
                     ) : (
                         <a 
                             onClick={() => alert("Faça seu login")} 
